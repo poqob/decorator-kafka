@@ -9,7 +9,7 @@ import logging
 import os
 from typing import Dict, Any
 
-from performans_kafka import consumer, producer, KafkaService
+from decorator_kafka import consumer, producer, KafkaService
 
 
 # Set up logging
