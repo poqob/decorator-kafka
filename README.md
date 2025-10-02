@@ -1,4 +1,4 @@
-# PerformansKafka
+# Decorator Kafka
 
 A minimalist, modern, and high-performance Python package that simplifies Kafka producer and consumer implementation using function decorators.
 
@@ -13,14 +13,16 @@ A minimalist, modern, and high-performance Python package that simplifies Kafka 
 ## Installation
 
 ```bash
-pip install performans_kafka
+pip install .
+# or
+pip install decorator-kafka
 ```
 
 ## Quick Start
 
 ```python
 import asyncio
-from performans_kafka import consumer, producer, KafkaService
+from decorator_kafka import consumer, producer, KafkaService
 
 # Define a consumer
 @consumer(topic="my-topic", group_id="my-group")
